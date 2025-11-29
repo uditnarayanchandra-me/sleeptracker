@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Web App</title>
+
+    <!-- Favicon and App Icons -->
+    <link rel="icon" type="image/png" href="https://i.postimg.cc/26X2D2N1/cropped-circle-image.png">
+    <link rel="apple-touch-icon" href="https://i.postimg.cc/26X2D2N1/cropped-circle-image.png">
+    <link rel="shortcut icon" href="https://i.postimg.cc/26X2D2N1/cropped-circle-image.png">
+
+    <!-- Allow as App (Mobile Web App Capabilities) -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <style>
+        /* CSS to make the iframe fill the whole screen */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            background-color: #ffffff;
+        }
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <iframe 
+        src="https://script.google.com/macros/s/AKfycbyWY9YVUHcylJK-hKtIsL04K-N8WCajzF4q7eUS5LeInZt98a8Jl0BMeacTO-JqYDrH/exec" 
+        allow="camera *; microphone *; fullscreen; display-capture; geolocation" 
+        sandbox="allow-forms allow-scripts allow-same-origin allow-popups allow-top-navigation"
+        title="Google Script App">
+    </iframe>
+
+</body>
+</html>
